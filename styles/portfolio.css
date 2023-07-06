@@ -8,7 +8,15 @@
 
 .btn-primary{
     border-radius: 5px;
-
+    background: orangered;
+    height: 50px;
+    border: 0;
+    padding: 20px;
+    color: #FFF8F3;
+}
+.header{
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
 }
 nav{
     display: flex;
@@ -24,4 +32,23 @@ nav li{
 }
 nav ul{
     display: flex;
+    align-items: center;
+}
+ /* Banner divided Section */
+ .banner{
+    margin: 0 150px;
+    display: flex;
+    align-items: center;
+ }
+.banner-sub-title{
+    font-size: 45px;
+    height: 500;
+}
+.banner-title{
+    font-size: 45px;
+    height: 800;
+
+}
+.banner-description{
+    color: #757575;
 }
