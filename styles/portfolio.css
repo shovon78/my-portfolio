@@ -1,12 +1,14 @@
-*{
+* {
     margin: 0;
 }
-.nav-title{
+
+.nav-title {
     font-weight: 800px;
     font-size: 45px;
+    margin-top: 0;
 }
 
-.btn-primary{
+.btn-primary {
     border-radius: 5px;
     background: orangered;
     height: 50px;
@@ -14,41 +16,161 @@
     padding: 20px;
     color: #FFF8F3;
 }
-.header{
+
+.header {
     background-color: #FFF8F3;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
     margin: 50px 150px;
 }
-span{
+
+span {
     color: orangered;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-left: 50px;
 }
-nav ul{
+
+nav ul {
     display: flex;
     align-items: center;
 }
- /* Banner divided Section */
- .banner{
+
+/*--------------------------------------- Banner divided Section ---------------------------------------*/
+.banner {
     margin: 0 150px;
     display: flex;
     align-items: center;
- }
-.banner-sub-title{
+}
+
+.banner-sub-title {
     font-size: 45px;
     height: 500;
+    margin-bottom: 20px;
 }
-.banner-title{
+
+.banner-title {
     font-size: 45px;
     height: 800;
+}
+
+.banner-description {
+    color: #757575;
+    margin: 25px 0 25px;
+}
+
+/*---------------------------------------------- Main Section--------------------------------------------*/
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* About me section*/
+.about {
+    text-align: center;
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    padding: 130px 150px;
+    border-radius: 10px;
+}
+
+.section-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.about-description {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.about-info-conatiner {
+    display: flex;
+    justify-content: space-around;
+    /* ----please see the Floxbox content ------*/
+}
+
+.about .info-title {
+    font-size: 20px;
+    color: #757575;
+}
+
+.what-i-do {
+    margin-top: 130px;
+}
+
+.skill-container {
+    display: flex;
+    gap: 24px;
+    background: #a53131;
+}
+
+.skill {
+    background: #f8f0f0;
+    box-shadow: Opx 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+    padding: 30px;
 
 }
-.banner-description{
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+/*---------------------------------------------Resume Section-------------------------------------*/
+
+.resume {
+    margin-top: 130px;
+}
+
+.resume-container {
+    display: flex;
+    gap: 30px;
+}
+
+.resume .title {
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.resume .sub-title {
     color: #757575;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.resume .description {
+    color: #757575;
+}
+
+.resume-item {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.resume-btn {
+    text-align: center;
+    margin: 50px;
+}
+
+.contact {
+    display: flex;
+    gap: 100px;
+    background-color: #fff8f3;
+    padding: 130px 200px;
 }
