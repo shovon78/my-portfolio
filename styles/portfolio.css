@@ -167,10 +167,21 @@ main {
     text-align: center;
     margin: 50px;
 }
-
+.contact .section-title{
+    text-align: left;
+}
 .contact {
     display: flex;
     gap: 100px;
     background-color: #fff8f3;
     padding: 130px 200px;
+}
+.contact input[type="text"],input[type="Email"],textarea{
+    margin-bottom: 24px;
+    border: 0;
+    padding: 18px 30px;
+    width: 100%;
+}
+input{
+    width: 64px;
 }
